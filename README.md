@@ -1,41 +1,37 @@
-# Website
+<h1 align="center">
+  🦖 Projeto Embrapa Docusaurus 🦖
+</h1>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<p align="center">
+  <a href="#-projeto">Resumo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias">Execução da Aplicação</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#-layout">Contato</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-### Installation
+<br>
 
-```
+## 💻 Resumo
+
+Repositório contendo o protótipo de um site da Embrapa, desenvolvido com o framework Docusaurus. O foco é apresentar notícias, eventos e pesquisas realizadas pela Embrapa.
+
+## ⚙️: Execução do Projeto
+
+### 
+Instale as dependências
+```bash
 $ yarn
+# or
+$ npm install
 ```
 
-### Local Development
+### Inicie o aplicativo no modo de desenvolvimento
 
-```
+```bash
 $ yarn start
+# or
+$ npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## :telephone: Contato
 
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Meu e-mail: pedro.hmota.goncalves@gmail.com
